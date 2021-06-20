@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+resources/bad_domains.db
+resources/words-dwyl-github.txt
+exports/dataframe.sav
