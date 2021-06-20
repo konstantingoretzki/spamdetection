@@ -1,0 +1,6 @@
+[submodule "webinterface"]
+	path = webinterface
+	url = https://github.com/konstantingoretzki/spamdetection-web.git
+[submodule "plugin"]
+	path = plugin
+	url = https://github.com/konstantingoretzki/spamdetection-plugin.git
