@@ -35,30 +35,31 @@ Design decisions and plots can be found in the files `preprocessing.ipynb`, `fea
 
 ```
 spam-detection/
-├── LICENSE
-├── README.md - you are here
 ├── datasets
-	├── spamassassin (files not provided)
-	├── trec07p (files not provided)
-	├── splitTRECFiles.sh - helper for splitting the trec dataset files
-├── docu
-│   └── introduction - concept and goal of our topic
-│       ├── SECANA-E-Mail-Klassifizierung-Gruppe-5.pdf
-│       ├── data-ham.png
-│       ├── data-spam.png
-│       └── document.tex
+│	├── spamassassin (files not provided)
+│	├── trec07p (files not provided)
+│	├── splitTRECFiles.sh - helper for splitting the trec dataset files
 ├── exports
-│   ├── model.sav
-│   └── vocab.sav
-├── features.ipynb - details about features (ideas and importances) and outliers
-├── markdown - md export of the main file that contains only the necessary steps to train the model
-│   └── spam-detection.md
-├── model.ipynb - decisions for using the final classifier
-├── preprocessing.ipynb - preprocessing incl. design thoughts and canceled ideas
-├── resources - 
+│   ├── docu-de.pdf - documentation in German
+│   ├── model.sav - export of the created model
+│   └── vocab.sav - export of the vocabulary for the model
+├── markdown - markdown exports of the jupyter notebook files
+│   ├── features/
+│   ├── preprocessing/
+│   ├── model.md
+│   ├── spam-detection.md
+│   └── vocabulary.md
+├── plugin - submodule containing code and info about the thunderbird plugin
+├── resources
 │   ├── bad_domains.txt - downloaded content of https://dbl.oisd.nl/ , remove headers (not provided)
 │   ├── bad_domains.db - created via preprocessing.ipynb from bad_domains.txt (not provided)
 │   └── words-dwyl-github.txt - https://github.com/dwyl/english-words/blob/master/words.txt (not provided)
-├── vocabulary.ipynb - design decision for the vocabulary (using intersections)
-└── spam-detection.ipynb - main jupyter notebook that contains only the necessary steps to train the model
+├── webinterface - submodule containing code and info about the webinterface
+├── LICENSE
+├── README.md - **you are here**
+├── features.ipynb - details about features (ideas and importances) and outliers
+├── model.ipynb - decisions for using the final classifier
+├── preprocessing.ipynb - preprocessing incl. design thoughts and canceled ideas
+├── spam-detection.ipynb - main jupyter notebook that contains only the necessary steps to train the model
+└── vocabulary.ipynb - design decision for the vocabulary (using intersections)
 ```
